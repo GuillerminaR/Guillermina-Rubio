@@ -1,0 +1,173 @@
+* {
+  Margin: 0;
+  padding: 0; }
+
+/** index**/
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center; }
+  .header .header__logo {
+    height: 400px;
+    width: 300px;
+    margin: 5px; }
+
+.destacadosFlex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center; }
+
+.pruebaimagen {
+  height: 500px;
+  width: 200px; }
+
+.cajaTexto {
+  margin: 5%; }
+
+/* acerca de mi */
+.sectionMain {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center; }
+
+.parrafoMain {
+  color: #6d0000;
+  font-size: 30px;
+  font-family: 'Roboto Condensed', sans-serif;
+  line-height: 1.5; }
+
+.imagenLuz {
+  height: 500px;
+  width: 400px;
+  border-radius: 30px;
+  margin: 10px; }
+
+.articleMain {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center; }
+
+.imagenAlquimia {
+  height: 300px;
+  width: 800px;
+  border-radius: 50px; }
+
+/* Alquimias */
+.sectionFacial {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center; }
+
+.sectionCorporal {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center; }
+
+/* Tinturas madres */
+.gridTinturasUno {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto auto;
+  grid-template-areas: "parrafoUnoT parrafoUnoT " "imgUnoT parrafoDosT"  "parrafoTresT parrafoTresT";
+  align-items: center; }
+
+.parrafoUnoT {
+  grid-area: parrafoUnoT;
+  color: #6d0000;
+  font-size: 30px;
+  font-family: 'Roboto Condensed', sans-serif;
+  line-height: 1.5; }
+
+.parrafoDosT {
+  grid-area: parrafoDosT;
+  color: #6d0000;
+  font-size: 30px;
+  font-family: 'Roboto Condensed', sans-serif;
+  line-height: 1.5; }
+
+.imgUnoT {
+  grid-area: imgUnoT;
+  margin: 30px; }
+
+.parrafoTresT {
+  grid-area: parrafoTresT;
+  color: #6d0000;
+  font-size: 30px;
+  font-family: 'Roboto Condensed', sans-serif;
+  line-height: 1.5; }
+
+.gridTinturasDos {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto;
+  grid-template-areas: "imgDosT parrafoCuatroT";
+  align-items: center; }
+
+.imgDosT {
+  grid-area: imgDosT;
+  margin: 30px; }
+
+.parrafoCuatroT {
+  grid-area: parrafoCuatroT;
+  color: #6d0000;
+  font-size: 30px;
+  font-family: 'Roboto Condensed', sans-serif;
+  line-height: 1.5; }
+
+.tinturasMadre {
+  color: #656666;
+  font-size: 20px;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align: left;
+  padding: 10px;
+  margin: 15px; }
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F3BEA5;
+  margin: 15px; }
+  .footer .footer__texto {
+    color: black;
+    font-size: 15px; }
+
+h1 {
+  color: #7d8585;
+  font-size: 50px;
+  text-align: center; }
+
+h2, h3 {
+  color: #7d8585;
+  font-size: 40px;
+  font-size: 40px;
+  text-align: center; }
+
+p {
+  color: #6d0000;
+  font-size: 20px;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align: left;
+  padding: 10px;
+  margin: 15px;
+  line-height: 1.5; }
+
+a {
+  color: #6d0000;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: 'Roboto Condensed', sans-serif; }
+
+.form {
+  padding: 10px;
+  margin: 15px; }
+
+body {
+  background-color: #fdf2ed; }
